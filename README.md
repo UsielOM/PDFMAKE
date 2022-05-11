@@ -8,7 +8,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 ## Comenzando 🚀
 
-_El modulo lo pueden encontrar entrando a la carpeta de src/app/pdfmake._
+_El modulo lo pueden encontrar entrando a la carpeta de `src/app/pdfmake` ._
 
 Ya tiene su  **MODULO Y COMPONENTE NECESARIO** para poder usarse en otro proyecto
 
