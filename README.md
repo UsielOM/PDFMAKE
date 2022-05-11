@@ -41,7 +41,7 @@ _Paso 2_
 
 Depues insatala esto:
 ```
-npm instalar pdfmake-wrapper --save
+npm install pdfmake --save
 ```
 _Paso 3_
 
