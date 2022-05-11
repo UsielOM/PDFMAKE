@@ -23,7 +23,6 @@ generarPDFMake(){
 	]
 	
 }
-
 const pdf = pdfMake.createPdf(dd);
 pdf.open();
 }
@@ -31,7 +30,7 @@ pdf.open();
 generarPDFWrapper(){
   const pdf = new PdfMakeWrapper(); //Creamos una nueva variable para poder usar los metodos del pdf Wrapper
   pdf.add( //add para indicar que ñadiremos elemento nuevo
-    new Txt("Hellow World").bold().italics().end //Esta linea indica que agregaremos texto y su estilo end para indicar que se termino e agregar
+    new Txt("Hellow World").bold().italics().end //Esta linea indica que agregaremos texto y su estilo, end para indicar que se termino de agregar elementos
 
   );
   pdf.create().open()//Create para crear el pdf y open para que cuando se active la funcion se abra el pdf en una nueva pestaña
