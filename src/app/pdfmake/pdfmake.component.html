@@ -1,4 +1,37 @@
 <p>pdfmake works!</p>
-<button class="btn btn-outline-danger" (click)="generarPDFMake()">PDFMAKE</button>
 
-<button class="btn btn-outline-warning" (click)="generarPDFWrapper()">PDFMAKE-WRAPPER</button>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">PDFMAKE</h5>
+                    <p class="card-text">Este la primera forma para poder genear pdfs .</p>
+                    <p class="card-text">Si quieren saber mas de como usar esta dependencia pueden consultar las siguientes documentaciones .</p>
+                    <ul class="list-group">
+                        <li class="list-group-item"><a href="http://pdfmake.org/playground.html">Ejemplos con codigo y vista</a></li>
+                        <li class="list-group-item"><a href="https://pdfmake.github.io/docs/0.1/getting-started/client-side/">Documentacion completa</a></li>
+
+                    </ul>
+                    <br>
+                    <button class="btn btn-outline-danger" (click)="generarPDFMake()">PDFMAKE</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">PDFMAKE-WRAPPER</h5>
+                    <p class="card-text">Este la segunda forma para poder genear pdfs .</p>
+                    <p class="card-text">Si quieren saber mas de como usar esta dependencia pueden consultar las siguiente documentacion .</p>
+                    <ul class="list-group">
+                        <li class="list-group-item"><a href="https://www.npmjs.com/package/pdfmake-wrapper">Documentacion </a></li>
+                    </ul>
+                    <br>
+                    <button class="btn btn-outline-warning" (click)="generarPDFWrapper()">PDFMAKE-WRAPPER</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
