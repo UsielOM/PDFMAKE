@@ -32,24 +32,21 @@ _Esto seria lo que necesitan instalar para poder usar bien el mopdulo_
 
 _Paso 1_
 
-```
 Instala primero esta dependencia:
-
+```
 npm i pdfmake-wrapper
 ```
 
 _Paso 2_
 
-```
 Depues insatala esto:
-
+```
 npm instalar pdfmake-wrapper --save
 ```
 _Paso 3_
 
-```
 Por ultimo insatala esto:
-
+```
 npm instalar @types/pdfmake --save-dev
 ```
 
