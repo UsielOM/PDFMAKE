@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { PdfMakeWrapper, Txt } from 'pdfmake-wrapper';
 
-import * as pdfMake from "pdfmake/build/pdfmake";
+import * as pdfMake from "pdfmake/build/pdfmake";//Importamos el servicio de pdfmake  y sus fuentes
 import * as pdfFonts from 'pdfmake/build/vfs_fonts';
 
 (<any>pdfMake).vfs = pdfFonts.pdfMake.vfs;
